@@ -1,0 +1,56 @@
+
+/* =========================================
+   EcoMarket - Animaciones y transiciones
+   Archivo: css/animations.css
+   ========================================= */
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes flotar {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.hero-content {
+    animation: aparecer 0.8s ease both;
+}
+
+.section-title {
+    animation: aparecer 0.6s ease both;
+}
+
+.product-card,
+.value-card,
+.testimonial-card {
+    animation: aparecer 0.5s ease both;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-content,
+    .section-title,
+    .product-card,
+    .value-card,
+    .testimonial-card {
+        animation: none;
+    }
+}
