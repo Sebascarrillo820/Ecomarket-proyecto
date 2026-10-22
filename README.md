@@ -49,7 +49,11 @@ EcoMarket_NombreApellido/
 El buscador, los filtros, la paginación y los favoritos son elementos visuales o de interacción limitada, porque el requisito excluye JavaScript. El formulario utiliza validación nativa, pero no envía datos a un servidor. Productos, precios, datos de contacto y testimonios son ilustrativos.
 
 ## Capturas
-Agrega capturas reales de las páginas finales en escritorio y móvil cuando pruebes el sitio.
+![alt text](image.png)
+![alt text](image2.png)
+![alt text](image3.png)
+![alt text](image4.png)
+![alt text](image5.png)
 
 ## GitFlow y ramas
 El repositorio de entrega incluye ramas de trabajo organizadas:
