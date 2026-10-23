@@ -11,10 +11,8 @@ Sitio web académico de una tienda de demostración orientada al consumo respons
 ## Tecnologías
 HTML5 semántico y CSS3 (Grid, Flexbox, Media Queries, transiciones y animaciones). No se utiliza JavaScript ni frameworks.
 
-## Ejecutar localmente
-1. Clona o descarga el repositorio.
-2. Abre la carpeta en Visual Studio Code.
-3. Abre `index.html` en un navegador o utiliza Live Server.
+## Link de la pagina:
+https://sebascarrillo820.github.io/Sebascarrillo820.github.io./
 
 ## Estructura
 ```text
@@ -45,7 +43,7 @@ EcoMarket_NombreApellido/
 └── README.md
 ```
 
-## Limitaciones de la demo
+## Limitaciones
 El buscador, los filtros, la paginación y los favoritos son elementos visuales o de interacción limitada, porque el requisito excluye JavaScript. El formulario utiliza validación nativa, pero no envía datos a un servidor. Productos, precios, datos de contacto y testimonios son ilustrativos.
 
 ## Capturas
